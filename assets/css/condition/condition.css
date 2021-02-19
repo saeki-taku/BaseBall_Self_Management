@@ -1,0 +1,137 @@
+body {
+  background-color: rgb(9, 52, 70);
+}
+.wrapper {
+  background-color: rgb(9, 52, 70);
+}
+.condtion {
+  padding: 15px 0;
+}
+.condition_container {
+  margin: 0 auto;
+  width: 90%;
+}
+.condition_list {
+  margin-bottom: 20px;
+}
+.condition_item:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+.condition_item {
+  background-color: #fff;
+  border: 1px solid rgb(241, 28, 28);
+  display: flex;
+  padding: 10px 5px;
+  position: relative;
+}
+.condition_wrap {
+  margin-left: 10px;
+  width: 100%;
+}
+.condition_playerName {
+  font-size: 1.6rem;
+  margin: 3px 0 8px 0;
+}
+.condition_date,
+.condition_parts,
+.condition_progress {
+  font-size: 1rem;
+}
+.condition_date,
+.condition_parts{
+  margin-bottom: 5px;
+}
+.condtion_linkWrap {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+.condition_detailLink,
+.condition_recovery {
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 2px;
+  transition: background-color .3s;
+}
+.condition_detailLink {
+  background-color: rgb(231, 248, 253, 0.3);
+  color: rgb(0, 71, 225);
+  display: inline-block;
+  margin-right: 8px;
+}
+.condition_detailLink:hover {
+  background-color: rgb(209, 236, 245);
+}
+.condition_recovery {
+  display: inline-block;
+  color: rgb(0, 167, 14);
+  background-color: rgba(173, 223, 177, 0.1);
+}
+.condition_recovery:hover {
+  background-color: rgba(173, 223, 177, 0.6);
+}
+.condition_add {
+  text-align: right;
+}
+.condition_addLink {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  transition: opacity .3s ease;
+}
+.condition_addLink:hover {
+  opacity: .6
+}
+
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  .condition_wrapper {
+    width: 960px;
+  }
+  .condition_container {
+    max-width: 600px;
+    margin: 0;
+  }
+  /* ここから調整する */
+  .condition_playerImg {
+    width: 120px;
+    height: 120px;
+  }
+  .condition_playerName {
+    font-size: 2.6rem;
+    margin: 3px 0 15px 0;
+  }
+  .condition_date,
+  .condition_parts,
+  .condition_progress {
+    font-size: 1.6rem;
+  }
+  .condition_date > span,
+  .condition_parts > span,
+  .condition_progress > span {
+    font-size: 1.4rem;
+  }
+  .condition_date,
+  .condition_parts {
+    margin-bottom: 8px;
+  }
+  .condtion_linkWrap {
+    /* display: flex;
+    justify-content: flex-end;
+    position: absolute; */
+    /* bottom: 10px;
+    right: 5px; */
+  }
+  .condition_detailLink,
+  .condition_recovery {
+    padding: 10px 25px;
+    font-size: 1.2rem;
+  }
+  .condition_addLink {
+    font-size: 1.8rem;
+  }
+}

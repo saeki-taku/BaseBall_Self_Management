@@ -1,0 +1,39 @@
+.footer {
+  background-color: #fff;
+  display: block;
+  /* margin-bottom: 44px; */
+  padding: 10px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer_word {
+  font-size: 12px;
+  text-align: center;
+}
+.footer_other {
+  /* border-top: solid 1px rgb(255, 255, 255); */
+  background-color: rgb(9, 52, 70);
+  margin-bottom: 44px;
+}
+.footer_menu {
+  margin-bottom: 44px;
+}
+.footer_other_word {
+  color: #fff;
+}
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  /* 960px〜のスタイル */
+  .footer {
+    margin-bottom: 0;
+  }
+  .footer_other {
+    margin-bottom: 0;
+  }
+  .footer_menu {
+    margin-bottom: 0;
+  }
+}

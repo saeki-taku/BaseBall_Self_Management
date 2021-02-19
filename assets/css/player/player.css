@@ -1,0 +1,240 @@
+body {
+  background-color: rgb(9, 52, 70);
+}
+.wrapper {
+  background-color: rgb(9, 52, 70);
+}
+.player {
+  padding: 15px 0;
+  /* background-color: rgb(9, 52, 70); */
+}
+.player_container {
+  margin: 0 auto;
+  width: 90%;
+}
+.playerProfile {
+  margin-bottom: 20px;
+}
+.playerProfile_head {
+  background-color: #fff;
+  border: 1px solid rgb(9, 52, 70);;
+  display: flex;
+  margin-bottom: 3px;
+  padding: 10px 5px;
+  position: relative;
+}
+.playerProfile_headWrap {
+  margin-left: 10px;
+  padding: 3px 0;
+}
+.playerProfile_schoolyear {
+  margin-bottom: 8px;
+}
+.playerProfile_name {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+  z-index: 1;
+}
+.playerProfile_furigana {
+  margin-bottom: 10px;
+}
+.playerProfile_position {
+  font-size: 1.2rem;
+}
+.playerProfile_link {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  padding: 5px 15px;
+  border: 1px solid;
+  border-radius: 2px;
+  background-color: rgb(231, 248, 253, 0.3);
+  color: rgb(0, 71, 225);
+  transition: background-color .3s;
+}
+.playerProfile_link:hover {
+  background-color: rgb(209, 236, 245);
+}
+.playerProfile_num {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: rgba(53, 53, 52, 0.1);
+  font-size: 7rem;
+  font-weight: 900;
+}
+.playerProfile_foot {
+  border: 1px solid rgb(9, 52, 70);;
+  background-color: #fff;
+  padding: 5px;
+  min-height: 50px;
+}
+.playerManagement {
+  margin-bottom: 10px;
+}
+.playerRecord {
+  margin-bottom: 20px;
+}
+.playerRecord_table {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+.playerRecord_tr {
+  display: flex;
+  table-layout: fixed;
+}
+.playerRecord_tr:last-of-type {
+  border-bottom: 1px solid #000;
+}
+.playerRecord_tr > th,
+.playerRecord_tr > td {
+  width: 100%;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  text-align: center;
+  padding: 4px;
+}
+.playerRecord_tr > th:last-of-type,
+.playerRecord_tr > td:last-of-type {
+  border-right: 1px solid #000;
+}
+
+.playerCondition {
+  background-color: #fff;
+  border: 1px solid rgb(9, 52, 70);
+  padding: 8px;
+}
+.playerCondition_list {
+  margin-bottom: 10px;
+}
+.playerCondtion_word {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.playerCondition_foot {
+  border: 1px dotted #000;
+  background-color: #fff;
+  min-height: 60px;
+  padding: 3px;
+}
+/*共通部品*/
+.player_edit {
+  display: block;
+  color: #fff;
+  text-align: right;
+  text-decoration: underline;
+}
+.condition_edit {
+  color: rgb(0, 71, 225);
+}
+.add_button {
+  width: 60%;
+  min-width: 280px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: solid 2px rgb(241, 28, 28);
+  padding: 16px 0;
+  margin: 0 auto;
+}
+.add_record {
+  margin: 0 auto 30px;
+}
+.add_buttonLink {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+}
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  .player_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 960px;
+  }
+  /* ここから調整 */
+  .player_container {
+    margin: 0;
+    max-width: 600px;
+  }
+  .playerProfile {
+    margin-bottom: 20px;
+  }
+  .playerProfile_headWrap {
+    margin-left: 20px;
+  }
+  .playerProfile_face {
+    width: 125px;
+    height: 125px;
+  }
+  .playerProfile_schoolyear {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  .playerProfile_name {
+    font-size: 2.6rem;
+  }
+  .playerProfile_furigana {
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+  }
+  .playerProfile_position {
+    font-size: 1.4rem;
+  }
+  .playerProfile_link {
+    font-size: 1.2rem;
+    padding: 15px 35px;
+  }
+  .playerProfile_num {
+    font-size: 8rem;
+  }
+  .playerProfile_foot {
+    min-height: 80px;
+  }
+  .playerManagement {
+    margin-bottom: 10px;
+  }
+  .playerRecord_tr > th,
+  .playerRecord_tr > td {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .playerCondition {
+    background-color: #fff;
+    border: 1px solid rgb(9, 52, 70);
+    padding: 12px;
+  }
+  .playerCondition_list {
+    margin-bottom: 10px;
+  }
+  .playerCondtion_word {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
+  .playerCondtion_word > span {
+    font-size: 1.4rem;
+    margin-right: 8px;
+  }
+  .playerCondition_foot {
+    min-height: 100px;
+  }
+  .playerCondition_memo,
+  .playerCondition_memo > span {
+    font-size: 1.2rem;
+  }
+  /*共通部品*/
+  .player_edit {
+    display: block;
+    color: #fff;
+    text-align: right;
+    text-decoration: underline;
+  }
+  .condition_edit {
+    color: rgb(0, 71, 225);
+  }
+}

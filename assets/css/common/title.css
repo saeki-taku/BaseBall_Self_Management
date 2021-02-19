@@ -1,0 +1,54 @@
+.commonTitle_frame_dark {
+  border-top: 4px double #fff;
+  border-bottom: 4px double #fff;
+  margin-bottom: 20px;
+  padding: 6px 0;
+}
+.commonTitle_dark {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  letter-spacing: 1rem;
+  width: 90%;
+}
+.commonTitle_frame {
+  border-top: 4px double rgb(241, 28, 28);
+  border-bottom: 4px double rgb(241, 28, 28);
+  margin-bottom: 20px;
+  padding: 6px 0;
+}
+.commonTitle {
+  color: #000;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  width: 90%;
+}
+/* .condition_title,
+.playerEdit_title,
+.diary_new_title,
+.proflie_edit_title,
+.conditionEdit_title {
+  letter-spacing: 0;
+} */
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  .commonTitle_frame_dark {
+    margin-bottom: 60px;
+    padding: 10px 20px;
+  }
+  .commonTitle_dark {
+    font-size: 2.4rem;
+    width: auto;
+  }
+  .commonTitle_frame {
+    margin-bottom: 60px;
+    padding: 10px 20px;
+  }
+  .commonTitle {
+    font-size: 2.4rem;
+    width: auto;
+  }
+}

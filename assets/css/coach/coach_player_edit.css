@@ -1,0 +1,28 @@
+/* 追加・変更分のみ記載 */
+.coachMemoEdit_text {
+  border: 1px solid rgb(9, 52, 70);
+  padding: 5px;
+  min-height: 80px;
+  margin-bottom: 15px;
+}
+.coachMemoEdit_Action {
+  display: flex;
+  justify-content: flex-end;
+}
+.coachMemoEdit_back,
+.coachMemoEdit_complete {
+  font-size: 1.4rem;
+  display: block;
+  text-align: center;
+}
+.coachMemoEdit_complete {
+  margin-right:12px;
+}
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  .coachMemo_edit {
+    font-size: 1.6rem;
+  }
+}

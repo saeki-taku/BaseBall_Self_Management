@@ -1,0 +1,106 @@
+.sidebar_list {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+}
+.sidebar_item {
+  flex: 1;
+  border-top: solid 1px rgb(9, 52, 70);
+}
+.sidebar_item:not(:first-of-type) {
+  border-left: 2px dotted rgb(9, 52, 70);
+}
+.sidebar_other_item {
+  background-color: rgb(9, 52, 70);
+}
+.sidebar_other_item:not(:first-of-type) {
+  border-left: 2px dotted rgb(250, 250, 250);
+}
+.sidebar_link {
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 18px 0;
+  transition: opacity 0.3s;
+}
+.sidebar_other_link {
+  background-color: rgb(9, 52, 70);
+  color: #fff;
+}
+.sidebar_link:hover {
+  opacity: 0.7;
+}
+.sp-sidebar_item {
+  display: none;
+}
+.sp-sidebar_link > span {
+  display: none;
+}
+@media (min-width: 520px) {
+}
+@media (min-width: 960px) {
+  .common_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 960px;
+  }
+  .sidebar_link {
+    background-color: #fff;
+    display: block;
+    font-size: 1.4rem;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .sidebar_list {
+    border: solid 1px rgb(241, 28, 28);
+    display: block;
+    position: static;
+    width: 300px;
+    height: auto;
+    z-index: 0;
+    /* margin-left: 20px; */
+  }
+  .sidebar_other_list {
+    border: solid 1px rgb(9, 52, 70);
+    display: block;
+    position: static;
+    width: 300px;
+    height: auto;
+    z-index: 0;
+    /* margin-left: 20px; */
+  }
+  .sidebar_item:not(:last-of-type) {
+    border-bottom: dotted 2px #fff;
+  }
+  .sidebar_item:not(:first-of-type) {
+    border-left: none;
+  }
+  .sidebar_other_item:not(:first-of-type) {
+    border-left: none;
+  }
+  .sidebar_other_item:not(:last-of-type) {
+    border-bottom: dotted 2px rgb(255, 255, 255);
+    /* border-bottom: 2px dotted rgb(241, 28, 28); */
+  }
+  .sidebar_link {
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 16px 0;
+  }
+  .sidebar_other_link {
+    color: rgb(41, 31, 31);
+  }
+  .sp-sidebar_item {
+    display: block;
+  }
+  .sp-sidebar_link > span {
+    display: inline;
+    font-size: 1.4rem;
+  }
+}

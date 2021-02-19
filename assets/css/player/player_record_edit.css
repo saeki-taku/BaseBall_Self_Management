@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(9, 52, 70);
+}
+.wrapper {
+  background-color: rgb(9, 52, 70);
+}
+.recordEdit {
+  padding: 15px 0;
+  /* background-color: rgb(9, 52, 70); */
+}
+.recordEdit_wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+.recordEdit_name {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding: 0 0 3px 3px;
+  width: 100%;
+}
+.recordEdit_container {
+  margin-bottom: 20px;
+}
+.recordEdit_table {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.recordEdit_tr {
+  display: flex;
+  table-layout: fixed;
+}
+.recordEdit_tr:last-of-type {
+  border-bottom: 1px solid #000;
+}
+.recordEdit_tr > th,
+.recordEdit_tr > td {
+  width: 100%;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  text-align: center;
+  padding: 4px;
+}
+.recordEdit_tr > th:last-of-type,
+.recordEdit_tr > td:last-of-type {
+  border-right: 1px solid #000;
+}
+.recordEdit_tr > td > input{
+  width: 95%;
+  padding: 3px 0;
+  text-align: center;
+}
+.recordEdit_submit {
+  display: block;
+  margin: 0 auto;
+  padding: 3px 20px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  border: 4px double rgb(241, 28, 28);
+  box-shadow: 3px 3px 4px 2px rgb(44, 44, 44, 1);
+  cursor: pointer;
+}
+.recordEdit_submit:hover {
+  background-color: rgb(255, 255, 255 0.9);
+  text-decoration: underline;
+  border: 4px solid rgb(241, 28, 28);
+}
+.recordEdit_action {
+  display: block;
+  margin: 0 0 0 auto;
+  width: 50px;
+}
+.recordEdit_back {
+  color: #fff;
+  display: block;
+  font-size: 1.4rem;
+  padding: 2px;
+  text-align: center;
+  text-decoration: underline;
+}
+.err_message {
+  text-align: center;
+  color: rgb(241, 28, 28);
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+}
+.recordEditComplete_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.recordEditComplete_word {
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+}
+.recordEditComplete_back {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #fff;
+  display: block;
+  text-decoration: underline;
+}
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  .recordEdit_wrapper {
+    margin: 0 auto;
+    width: 960px;
+  }
+  .recordEdit_container {
+    margin-bottom: 40px;
+  }
+  .recordEdit_table {
+    margin-bottom: 30px;
+  }
+  .recordEdit_tr > th,
+  .recordEdit_tr > td {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .recordEdit_submit {
+    padding: 5px 30px;
+  }
+}

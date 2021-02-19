@@ -1,0 +1,18 @@
+.acountNewResult_wrap {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.acountNewResult_wrap > p,
+.acountNewResult_wrap > a {
+  font-size: 1.6rem;
+}
+.acountNewResult_wrap > p {
+  margin-bottom: 15px;
+}
+.acountNewResult_wrap > a {
+  text-decoration: underline;
+}

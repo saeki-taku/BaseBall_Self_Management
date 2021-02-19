@@ -1,0 +1,18 @@
+.schedule {
+  padding: 15px 0;
+}
+#calendar {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.fc-content {
+  padding: 5px;
+  background-color: rgb(203, 233, 203);
+
+}
+/* 〜520pxのスタイル */
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+}

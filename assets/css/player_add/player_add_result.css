@@ -1,0 +1,25 @@
+.playerAddResult {
+  padding: 15px 0;
+}
+.playerAddResult_container {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.playerAddResult_word {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.playerAddResult_box {
+  display: flex;
+  justify-content: center;
+}
+.playerAddResult_link {
+  font-size: 1.6rem;
+  text-decoration: underline;
+}
+.playerAddResult_link:first-of-type {
+  margin-right: 30px;
+}

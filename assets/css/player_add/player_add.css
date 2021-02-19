@@ -1,0 +1,162 @@
+.playerAdd {
+  padding: 15px 0;
+}
+.playerAdd_container {
+  margin: 0 auto;
+  width: 99%;
+}
+.playerAdd_carefull {
+  margin-bottom: 12px;
+}
+height
+.playerAdd_carefull > span {
+  color: rgb(241, 28, 28);
+  font-size: 1.4rem;
+}
+.playerAdd_form {
+  padding: 30px 5px;
+  background-color: rgba(40, 180, 9, 0.4);
+  border-radius: 4px;
+  border: 1px solid rgba(53, 53, 53, .6);
+}
+.playerAdd_table {
+  margin: 0 auto;
+}
+.playerAdd_tr {
+  display: block;
+  margin-bottom: 15px;
+}
+.playerAdd_tr:last-of-type {
+  margin-bottom: 30px;
+}
+.playerAdd_tr span {
+  color: rgb(241, 28, 28);
+  font-size: 1.4rem;
+}
+.playerAdd_tr > th {
+  font-size: 1.2rem;
+  width: 70px;
+  text-align: left;
+}
+.playerAdd_face {
+  border: none;
+  width: 232px;
+  white-space: wrap;
+}
+.playerAdd_input,
+.playerAdd_introduce {
+  padding: 5px;
+  border-radius: 4px;
+  min-width: 200px;
+  border: 1px solid rgb(88, 87, 87);
+  box-shadow: 1px 1px 1px 1px rgb(117, 114, 114) inset;
+}
+.playerAdd_face {
+  border: none;
+}
+.playerAdd_schoolyear-select,
+.playerAdd_position-select {
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 4px;
+}
+.playerAdd_th_introduce {
+  vertical-align: middle;
+  width: 100%;
+}
+.playerAdd_introduce {
+  min-height: 90px;
+}
+.playerAdd_submit {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 30px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  border: 4px double rgb(241, 28, 28);
+  /* border: 4px double rgb(5, 160, 31); */
+  box-shadow: 3px 3px 4px 2px rgb(44, 44, 44, 1);
+  cursor: pointer;
+}
+.playerAdd_submit:hover {
+  background-color: rgb(255, 255, 255 .9);
+  text-decoration: underline;
+  border: 4px solid rgb(241, 28, 28);
+}
+.err_message {
+  font-size: 1.4rem;
+  color: rgb(241, 28, 28);
+  margin-top: 5px;
+}
+
+
+@media (min-width: 520px) {
+  .playerAdd_container {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .playerAdd_tr span {
+    font-size: 2rem;
+  }
+  .playerAdd_tr > th {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    width: 140px;
+  }
+  .playerAdd_face {
+    width: 250px;
+  }
+  .playerAdd_input,
+  .playerAdd_introduce {
+    min-width: 250px;
+    font-size: 1.4rem;
+  }
+  .playerAdd_introduce {
+    min-height: 120px;
+  }
+}
+@media (min-width: 960px) {
+  .playerAdd_container {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+  .playerAdd_carefull {
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+  }
+  .playerAdd_carefull > span {
+    font-size: 2.2rem;
+  }
+  .playerAdd_form {
+    padding: 40px 5px;
+  }
+  .playerAdd_tr {
+    margin-bottom: 20px;
+  }
+  .playerAdd_tr span {
+    font-size: 2.4rem;
+  }
+  .playerAdd_tr > th {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    width: 160px;
+  }
+  .playerAdd_face {
+    width: 300px;
+  }
+  .playerAdd_input,
+  .playerAdd_introduce {
+    min-width: 380px;
+    font-size: 1.8rem;
+  }
+  .playerAdd_schoolyear-select,
+  .playerAdd_position-select {
+    padding: 4px 8px;
+  }
+  .playerAdd_introduce {
+    min-height: 120px;
+  }
+  .playerAdd_submit {
+    padding: 8px 40px;
+  }
+}

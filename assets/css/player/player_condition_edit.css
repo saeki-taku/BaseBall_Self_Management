@@ -1,0 +1,135 @@
+body {
+  background-color: rgb(9, 52, 70);
+}
+.wrapper {
+  background-color: rgb(9, 52, 70);
+}
+.conditionEdit {
+  padding: 15px 0;
+}
+.conditionEdit_container {
+  margin: 0 auto;
+  width: 95%;
+}
+.conditionEdit_name {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding: 0 0 3px 3px;
+  width: 100%;
+}
+.conditionEdit_table {
+  margin-bottom: 20px;
+}
+.conditionEdit_form {
+  background-color: #fff;
+  border: 1px solid rgb(9, 52, 70);
+  margin-bottom: 12px;
+  padding: 20px 10px;
+}
+.conditionEdit_tr {
+  display: block;
+  margin-bottom: 12px;
+}
+.conditionEdit_tr > th {
+  width: 70px;
+  text-align: left;
+}
+.conditionEdit_tr > td {
+  width: 220px;
+  white-space: wrap;
+}
+.conditionEdit_tr > th,
+.conditionEdit_tr > td {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.conditionEdit_textarea {
+  vertical-align: middle;
+  min-height: 100px;
+
+}
+
+.conditionEdit_submit {
+  display: block;
+  margin: 0 auto;
+  padding: 3px 20px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  border: 4px double rgb(241, 28, 28);
+  box-shadow: 3px 3px 4px 2px rgb(44, 44, 44, 1);
+  cursor: pointer;
+}
+.conditionEdit_submit:hover {
+  background-color: rgb(255, 255, 255 0.9);
+  text-decoration: underline;
+  border: 4px solid rgb(241, 28, 28);
+}
+.conditionEdit_action {
+  display: block;
+  margin: 0 0 0 auto;
+  width: 50px;
+}
+.conditionEdit_back {
+  color: #fff;
+  display: block;
+  font-size: 1.4rem;
+  padding: 2px;
+  text-align: center;
+  text-decoration: underline;
+}
+.conditionEditComplete_action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.conditionEditComplete_word {
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.conditionEditComplete_back {
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+}
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  .conditionEdit_container {
+    margin: 0 auto;
+    width: 960px;
+  }
+  .conditionEdit_form {
+    margin-bottom: 20px;
+  }
+  .conditionEdit_table {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .conditionEdit_tr > th {
+    width: 120px;
+    text-align: left;
+  }
+  .conditionEdit_tr > td {
+    width: 380px;
+    white-space: wrap;
+  }
+  .conditionEdit_input,
+  .conditionEdit_textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  .conditionEdit_tr > th,
+  .conditionEdit_tr > th {
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+  }
+  .conditionEdit_submit {
+    padding: 5px 30px;
+  }
+}

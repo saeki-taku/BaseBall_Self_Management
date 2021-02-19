@@ -1,0 +1,74 @@
+.diary {
+  padding: 15px 0;
+}
+.diary_container {
+  margin: 0 auto;
+  width: 90%;
+}
+.diary_new {
+  display: block;
+  background-color: rgb(0, 167, 14);
+  border: 1px solid rgb(9, 52, 70);
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 0;
+  margin-bottom: 30px;
+  width: 70px;
+  text-align: center;
+}
+.diary_item {
+  margin-bottom: 30px;
+}
+.diary_title {
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgb(9, 52, 70);
+  padding: 0 0 3px 5px;
+}
+.diary_text {
+  line-height: 1.5;
+  padding: 5px;
+  max-width: 90%;
+  min-height: 80px;
+  margin-bottom: 20px;
+}
+.diary_action {
+  display: flex;
+  justify-content: flex-end;
+}
+.diary_edit,
+.diary_delete {
+  border-radius: 4px;
+  display: block;
+  font-size:1.2rem;
+  margin-right: 5px;
+  padding: 2px 5px;
+  text-decoration: underline;
+}
+.diary_delete {
+  color: rgb(241, 28, 28, .8);
+}
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  .diary_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 960px;
+  }
+  .diary_container {
+    max-width: 600px;
+    margin: 0;
+  }
+  .diary_item {
+    margin-bottom: 30px;
+  }
+  .diary_title {
+    font-size: 1.6rem;
+  }
+  .diary_text {
+    font-size: 1.2rem;
+    padding: 10px 5px;
+  }
+}

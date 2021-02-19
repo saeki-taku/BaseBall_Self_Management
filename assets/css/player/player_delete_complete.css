@@ -1,0 +1,20 @@
+.playerDelete_complete {
+  text-align: center;
+  font-size:1.4rem;
+  margin: 50px 0;
+}
+.playerDelete_mainLink {
+  border: 4px double rgb(241, 28, 28);
+  border-radius: 4px;
+  box-shadow: 2px 2px 1px 1px rgb(44, 44, 44, 1);
+  display: block;
+  margin: 0 auto;
+  padding: 8px 0;
+  width: 100px;
+  text-align: center;
+}
+.playerDelete_mainLink:hover {
+  background-color: rgb(255, 255, 255 .9);
+  text-decoration: underline;
+  border: 4px solid rgb(241, 28, 28);
+}

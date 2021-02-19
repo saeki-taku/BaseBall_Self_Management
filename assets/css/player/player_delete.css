@@ -1,0 +1,96 @@
+.delete {
+  padding: 15px 0;
+}
+.playerDelete_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.playerDelete_carefull {
+  text-align: center;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+.playerDelete_container {
+  display: flex;
+  border: 1px solid #000;
+  margin-bottom: 30px;
+  padding: 10px 5px;
+}
+.playerDelete_box {
+  margin-left: 10px;
+  padding: 3px 0;
+}
+.playerDelete_schoolyear {
+  margin-bottom: 8px;
+}
+.playerDelete_name {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+}
+.playerDelete_furigana {
+  margin-bottom: 10px;
+}
+.playerDelete_link {
+  border: 4px double rgb(241, 28, 28);
+  border-radius: 4px;
+  box-shadow: 2px 2px 1px 1px rgb(44, 44, 44, 1);
+  display: block;
+  margin: 0 auto;
+  padding: 5px 0;
+  width: 70px;
+  text-align: center;
+}
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  .playerDelete_wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .playerDelete_carefull {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 1.5;
+  }
+  /* .playerDelete_container {
+    display: flex;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    padding: 10px 5px;
+  } */
+  .playerDelete_box {
+    margin-left: 20px;
+    padding: 3px 0;
+  }
+  .playerDelete_face {
+    width: 120px;
+    height: 120px;
+  }
+  .playerDelete_schoolyear {
+    font-size: 1.4rem;
+  }
+  .playerDelete_name {
+    font-size: 2.4rem;
+  }
+  .playerDelete_furigana {
+    font-size: 1.4rem;
+  }
+  .playerDelete_link {
+    border: 4px double rgb(241, 28, 28);
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px 1px rgb(44, 44, 44, 1);
+    display: block;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 90px;
+    text-align: center;
+  }
+  .playerDelete_link:hover {
+    background-color: rgb(255, 255, 255 .9);
+    text-decoration: underline;
+    border: 4px solid rgb(241, 28, 28);
+  }
+}

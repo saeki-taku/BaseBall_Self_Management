@@ -1,0 +1,110 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.wrapper {
+  background-position: center center;
+  background-size: cover;
+}
+.acountDelete {
+  width: 100%;
+  padding: 15px 0;
+}
+.acountDelete_container {
+  margin: 0 auto;
+  width: 90%;
+}
+.acountDelete_text {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.acountDelete_name,
+.acountDelete_mail,
+.acountDelete_pass {
+  display: block;
+  width: 80%;
+  max-width: 280px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  margin: 0 auto 30px;
+}
+.acountDelete_button {
+  display: block;
+  margin: 0 auto 60px;
+  padding: 5px 30px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  border: 4px double rgb(241, 28, 28);
+  box-shadow: 3px 3px 4px 2px rgb(44, 44, 44, 1);
+  cursor: pointer;
+}
+.acountDelete_button:hover {
+  background-color: rgb(255, 255, 255, 0.9);
+  text-decoration: underline;
+  border: 4px solid rgb(241, 28, 28);
+}
+.acountDelete_action {
+  display: block;
+  margin: 0 0 0 auto;
+  width: 50px;
+
+}
+.acountDelete_back {
+  display: block;
+  font-size: 1.4rem;
+  padding: 2px 0;
+  text-align: right;
+  text-align: center;
+  text-decoration: underline;
+}
+.acount_delete_container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.err_msg {
+  font-size: 1.4rem;
+  margin-top: 25px;
+  /* text-align: center; */
+}
+.acount_delete_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.acount_delete_word {
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+}
+.acount_delete_linkWrap > a {
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+
+@media (min-width: 520px) {
+  /* 520px〜960pxのスタイル */
+}
+@media (min-width: 960px) {
+  .acountDelete_text {
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  .acountDelete_name,
+  .acountDelete_mail,
+  .acountDelete_pass {
+    max-width: 450px;
+    padding: 10px 10px;
+    font-size: 1.6rem;
+    margin: 0 auto 30px;
+  }
+  .acountDelete_button {
+    padding: 8px 40px;
+  }
+  .acountDelete_back {
+    font-size: 1.6rem;
+  }
+}

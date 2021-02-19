@@ -1,0 +1,19 @@
+.logout {
+  padding: 15px 0;
+}
+.logout_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.logout_text,
+.logout_link {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.logout_text {
+  margin-bottom: 60px;
+}
+.logout_link {
+  text-decoration: underline;
+}

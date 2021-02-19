@@ -1,0 +1,66 @@
+html, body{
+  background-color: rgb(250, 250, 250);
+}
+.wrapper {
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.acountNew {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.acountNew_word {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+}
+.acountNew_text {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem
+}
+.acountNew_text > span {
+  color: rgb(255, 20, 20);
+  font-weight: bold;
+  font-size: 1.4rem
+}
+.acountNew_from {
+  transition: .5s;
+}
+.acountNew_name,
+.acountNew_mail,
+.acountNew_pass {
+  display: block;
+  width: 60%;
+  max-width: 380px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  margin: 0 auto 30px;
+}
+.acountNew_button {
+  cursor: pointer;
+  display: block;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  border: 4px double rgb(5, 160, 31);
+  box-shadow: 3px 3px 4px 2px rgb(44, 44, 44, 1);
+  margin: 0 auto 50px;
+  padding: 5px 30px;
+}
+.acountNew_button:hover {
+  border: 4px solid rgb(5, 160, 31);
+  text-decoration: underline;
+}
+/* .acountNew_button {
+  display: block;
+  margin: 0 auto 30px;
+  padding: 5px 30px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 2px 1px rgb(44, 44, 44, 1);
+} */
