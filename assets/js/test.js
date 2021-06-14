@@ -37,7 +37,7 @@ class Tab {
     const randomId = Math.random().toString(32).substring(2);
 
     this.tabs.forEach((tab, index) => {
-      tab.setAttribute("id", `tab-${randomId}-${index}`);                 
+      tab.setAttribute("id", `tab-${randomId}-${index}`);
       tab.setAttribute("href", `#tabpanel-${randomId}-${index}`);
       tab.setAttribute("aria-controls", `tabpanel-${randomId}-${index}`);
       tab.setAttribute("aria-selected", false);

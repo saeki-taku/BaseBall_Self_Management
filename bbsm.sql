@@ -1,3 +1,12 @@
+-- phpMyAdmin SQL Dump
+-- version 4.9.3
+-- https://www.phpmyadmin.net/
+--
+-- ホスト: localhost:8889
+-- 生成日時: 2021 年 2 月 26 日 14:07
+-- サーバのバージョン： 5.7.26
+-- PHP のバージョン: 7.4.2
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
@@ -11,6 +20,7 @@ SET time_zone = "+00:00";
 -- テーブルの構造 `calendar`
 --
 
+DROP TABLE IF EXISTS `calendar`;
 CREATE TABLE `calendar` (
   `id` int(32) NOT NULL,
   `title` varchar(255) NOT NULL,
@@ -32,6 +42,7 @@ INSERT INTO `calendar` (`id`, `title`, `start_event`, `end_event`) VALUES
 -- テーブルの構造 `conditions`
 --
 
+DROP TABLE IF EXISTS `conditions`;
 CREATE TABLE `conditions` (
   `id` int(32) NOT NULL,
   `c_player_id` int(32) NOT NULL,
@@ -56,6 +67,7 @@ INSERT INTO `conditions` (`id`, `c_player_id`, `pain_parts`, `pain_contents`, `p
 -- テーブルの構造 `diaries`
 --
 
+DROP TABLE IF EXISTS `diaries`;
 CREATE TABLE `diaries` (
   `id` int(32) NOT NULL,
   `player_id` int(32) NOT NULL,
@@ -70,6 +82,7 @@ CREATE TABLE `diaries` (
 -- テーブルの構造 `orders`
 --
 
+DROP TABLE IF EXISTS `orders`;
 CREATE TABLE `orders` (
   `id` int(32) NOT NULL,
   `user_id` int(32) NOT NULL,
@@ -107,6 +120,7 @@ INSERT INTO `orders` (`id`, `user_id`, `orders_title`, `position_1`, `position_2
 -- テーブルの構造 `orders_sub`
 --
 
+DROP TABLE IF EXISTS `orders_sub`;
 CREATE TABLE `orders_sub` (
   `id` int(32) NOT NULL,
   `user_id` int(32) NOT NULL,
@@ -144,6 +158,7 @@ INSERT INTO `orders_sub` (`id`, `user_id`, `orders_title_sub`, `position_1_sub`,
 -- テーブルの構造 `player`
 --
 
+DROP TABLE IF EXISTS `player`;
 CREATE TABLE `player` (
   `id` int(32) NOT NULL,
   `user_id` int(11) DEFAULT NULL,
@@ -188,6 +203,7 @@ INSERT INTO `player` (`id`, `user_id`, `file_name`, `file_path`, `players_name`,
 -- テーブルの構造 `record`
 --
 
+DROP TABLE IF EXISTS `record`;
 CREATE TABLE `record` (
   `id` int(32) NOT NULL,
   `r_player_id` int(32) NOT NULL,
@@ -229,6 +245,7 @@ INSERT INTO `record` (`id`, `r_player_id`, `height`, `height_2`, `height_3`, `we
 -- テーブルの構造 `users`
 --
 
+DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` int(32) NOT NULL,
   `team_name` varchar(255) NOT NULL,
@@ -311,7 +328,7 @@ ALTER TABLE `calendar`
 -- テーブルのAUTO_INCREMENT `conditions`
 --
 ALTER TABLE `conditions`
-  MODIFY `id` int(32) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+  MODIFY `id` int(32) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
 -- テーブルのAUTO_INCREMENT `diaries`
@@ -335,13 +352,13 @@ ALTER TABLE `orders_sub`
 -- テーブルのAUTO_INCREMENT `player`
 --
 ALTER TABLE `player`
-  MODIFY `id` int(32) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=112;
+  MODIFY `id` int(32) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=109;
 
 --
 -- テーブルのAUTO_INCREMENT `record`
 --
 ALTER TABLE `record`
-  MODIFY `id` int(32) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
+  MODIFY `id` int(32) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
 
 --
 -- テーブルのAUTO_INCREMENT `users`
